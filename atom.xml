@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>学习使我快乐</title>
+  
+  <subtitle>嘤嘤嘤</subtitle>
+  <link href="https://peter-droid.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://peter-droid.github.io/"/>
+  <updated>2020-10-22T13:05:36.023Z</updated>
+  <id>https://peter-droid.github.io/</id>
+  
+  <author>
+    <name>LongXin</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>first article</title>
+    <link href="https://peter-droid.github.io/uncategorized/first-article/"/>
+    <id>https://peter-droid.github.io/uncategorized/first-article/</id>
+    <published>2020-10-22T13:05:36.000Z</published>
+    <updated>2020-10-22T13:05:36.023Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://peter-droid.github.io/uncategorized/hello-world/"/>
+    <id>https://peter-droid.github.io/uncategorized/hello-world/</id>
+    <published>2020-10-22T12:44:20.407Z</published>
+    <updated>2020-10-22T12:44:20.407Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>

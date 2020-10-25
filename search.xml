@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>数学竞赛好题赏析</title>
+      <link href="xue-xi/shu-xue-jing-sai-hao-ti-shang-xi/"/>
+      <url>xue-xi/shu-xue-jing-sai-hao-ti-shang-xi/</url>
+      
+        <content type="html"><![CDATA[<p><strong>这篇文章用来记录刷题过程中给我启发或者让我学到新方法的好题。</strong></p><p>设$y=f(x)$由$\begin{equation}<br>\left{<br>             \begin{array}{lr}<br>             x=t^2+2t &amp;  \<br>             t^2-y+asiny=1\<br>             \end{array}<br>\right.<br>\end{equation}$确定，若$y(0)=b$，求$\dfrac{d^2y}{dx^2}|_{t=0}$.</p><p><strong>分析</strong> 这是参数方程中含隐函数的情况。计算$\dot{y}$时需对第二个等式按隐函数方式求导，再用公式$\dfrac{dy}{dx}=\dfrac{\dot{y}}{\dot{x}}$; 计算$\dfrac{d^2y}{dx^2}|<em>{t=0}$时，可先求出二阶导数的一般表达式，再带入$t=0$，也可由二阶导数的定义求极限$\lim\limits</em>{t\rightarrow0}\dfrac{\dfrac{dy}{dx}-\dfrac{dy}{dx}|_{t=0}}{x(t)\rightarrow x(0)}$.</p><p><strong>解</strong> 方程组对两边求导，得<br>$$<br>\begin{aligned}<br>\left{<br>             \begin{array}{lr}<br>             \dot{x}=2t+2 &amp;  \<br>             2t-\dot{y}+acosy\cdot\dot{y}=0\<br>             \end{array}<br>\right.<br>\end{aligned}\Rightarrow<br>\begin{equation}<br>\left{<br>             \begin{array}{lr}<br>             \dot{x}=2(t+1) &amp;  \<br>             \dot{y}=\dfrac{2t}{1-acosy}\<br>             \end{array}<br>\right.<br>\end{equation}<br>$$<br>于是<br>$$<br>\dfrac{dy}{dx}=\dfrac{\dot{y}}{\dot{x}}=\dfrac{t}{(t+1)(1-acosy)},\dfrac{dy}{dx}|_{t=0}=0<br>$$</p><p>$$<br>\dfrac{d^2y}{dx^2}=\dfrac{(\dfrac{dy}{dx})^`_t}{\dot{x}}=\dfrac{\dfrac{(1-acosy)-at(t+1)siny\cdot\dot{y}}{(t+1)^2(1-acosy)^2}}{2(t+1)}<br>$$</p><p>注意到$y|<em>{t=0}=b,\dot{y}|</em>{t=0}=0$，得<br>$$<br>\dfrac{d^2y}{dx^2}|_{t=0}=\dfrac{1}{2(1-acosb)}<br>$$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学竞赛 </tag>
+            
+            <tag> 刷题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数据结构读书笔记</title>
       <link href="xue-xi/shu-ju-jie-gou-du-shu-bi-ji/"/>
       <url>xue-xi/shu-ju-jie-gou-du-shu-bi-ji/</url>

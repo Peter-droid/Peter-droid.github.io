@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>学习使我快乐</title>
   
-  <subtitle>嘤嘤嘤</subtitle>
+  <subtitle>学习使我快乐</subtitle>
   <link href="https://peter-droid.github.io/atom.xml" rel="self"/>
   
   <link href="https://peter-droid.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://peter-droid.github.io/</id>
   
   <author>
-    <name>LongXin</name>
+    <name>龙昕</name>
     
   </author>
   

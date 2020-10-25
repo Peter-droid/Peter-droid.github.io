@@ -2171,7 +2171,7 @@ footer .copy-right {
 }
 
 /* 二级菜单样式定义 洪卫 shw2018 add 2019.09.17 */ 
-.nav-menu {} 
+/* .nav-menu {} 
 .nav-menu li 
 .sub-nav { 
     position: absolute; 
@@ -2274,5 +2274,5 @@ footer .copy-right {
 .nav-item li:hover a { 
     color: #FFF; 
     background: rgba(0, 0, 0, .1); 
-}
+} */
 

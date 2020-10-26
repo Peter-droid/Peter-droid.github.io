@@ -76,11 +76,7 @@
         
         
     <summary type="html">&lt;p&gt;代码测试&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-c++&quot;&gt;&lt;code class=&quot;language-c++&quot;&gt;#include &lt;iostream&gt;
-using namespace::std;
-
-int main(void){
-  </summary>
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
         
       
     

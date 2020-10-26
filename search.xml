@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>概统学习笔记</title>
+      <link href="xue-xi/gai-tong-xue-xi-bi-ji/"/>
+      <url>xue-xi/gai-tong-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 概统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>大学物理学习笔记</title>
+      <link href="xue-xi/da-xue-wu-li-xue-xi-bi-ji/"/>
+      <url>xue-xi/da-xue-wu-li-xue-xi-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<h2 id="热学"><a href="#热学" class="headerlink" title="热学"></a>热学</h2><p>一、热学研究对象及内容</p><ul><li>对象：宏观物体（大量分子原子系统）或物体系——热力学系统。</li><li>内容：与热现象有关的性质和规律。</li><li>热现象：宏观上说是与温度T有关；微观上说是与热运动有关。</li></ul><p>二、热学的研究方法</p><ul><li>热力学：宏观基本实验规律—–&gt;热现象规律（特点：普遍性、可靠性）</li><li>统计力学：对微观结构提出模型、假设—-&gt;热现象规律（特点：可揭示本质，但受模型局限）</li></ul><p>三、几个概念</p><ol><li><p>平衡态</p><p>在不受外界影响的条件下（与外界无任何形式的物质与能量交换），系统的宏观性质不随时间变化的状态（动态平衡）。</p></li><li><p>宏观量</p><p>表征系统宏观性质的物理量（可直接测量），如p,T,M,V,E</p></li><li><p>微观量</p><p>描写单个微观粒子运动状态的物理量（一般只能间接测量）。如分子的m, v, d</p></li><li><p>过程：准静态过程</p><ul><li>每一时刻系统都处于平衡态</li><li>实际过程的理想化——无限缓慢</li><li>”无限缓慢“：系统变化的过程时间&gt;&gt;弛豫时间τ</li></ul></li><li><p>物态参量（态参量）：</p><p>描写平衡态的宏观物理量，如：气体的P、V、T。一组态参量描述一个平衡态，一个平衡态对应一组态参量。</p></li><li><p>P-V图</p><p>PV图上一个点代表一个平衡态，一条线代表一个准静态过程。通常还画P-T、P-V、T-V、T-E图。</p></li><li><p>物态方程</p><p>态参量之间的函数关系：$f(P,V,T)=0$</p><p>理想气体物态方程：$PV=\frac{M}{μ}RT$，其中M表示气体质量，μ表示摩尔质量，V表示气体活动空间，R是普适气体常量</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 大学物理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数学竞赛好题赏析</title>
       <link href="xue-xi/shu-xue-jing-sai-hao-ti-shang-xi/"/>
       <url>xue-xi/shu-xue-jing-sai-hao-ti-shang-xi/</url>

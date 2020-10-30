@@ -371,12 +371,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/">
-                                <span class="chip bg-color">大学物理</span>
-                            </a>
-                        
                             <a href="/tags/%E7%AC%94%E8%AE%B0/">
                                 <span class="chip bg-color">笔记</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/">
+                                <span class="chip bg-color">大学物理</span>
                             </a>
                         
                     </div>
@@ -409,14 +409,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.1k
+                    4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    8 分
+                    16 分
                 </div>
                 
 
@@ -589,6 +589,86 @@
 <p>​            v= 3N - 6</p>
 <p><img src=".._data%5Cpictures%5C%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C7.4.png"></p>
 <p>二.能量均分定理</p>
+<p>​    由$\overline{\epsilon_t}=\dfrac{3}{2}kT$及$t=3$知：</p>
+<p>​        一个平动自由度对应的平均动能为$\dfrac{1}{2}kT$。</p>
+<p>​        即：$\dfrac{1}{2}m\overline{v^2_x}=\dfrac{1}{2}m\overline{v^2_y}=\dfrac{1}{2}m\overline{v^2_z}=\dfrac{1}{2}kT$</p>
+<p>​    由于分子碰撞频繁，平均的说，能量分配没有任何自由度占优势。即：<u>在温度为T的平衡态下，分子热运动的每一个自由度所对应的平均动能都等于$\dfrac{1}{2}kT$</u>（能量均分定理）</p>
+<p>​    能量均分定理的更普遍的说法是：</p>
+<p>​        <u>能量中每具有一个平方项，就对应一个$\dfrac{1}{2}kT$的平均能量。</u></p>
+<p>​    能量均分定理不仅适用于气体，也适用与液体和固体，甚至适用于任何具有统计规律的系统。</p>
+<p>​    对有振动（非刚性）的分子：$i = t + r + v$，振动势能与动能相同，$\overline{\epsilon_p}=\overline{\epsilon_k}=\dfrac{1}{2}kT$，</p>
+<p>$\overline{\epsilon_v}=\overline{\epsilon_p}+\overline{\epsilon_k}=kT$，因此分子平均能量$\overline{\epsilon}=\overline{\epsilon_t}+\overline{\epsilon_r}+\overline{\epsilon_v}=(t+r+2v)·\dfrac{1}{2}kT$。</p>
+<p>​    根据量子理论，能量是分立的，且 t, r, v的能级间距不同。（fig.7.5）</p>
+<p>​    一般情况下($T&lt;10^3K$)，振动能级极少跃迁，对能量交换不起作用，振动自由度 v “冻结”，分子可视为刚性。</p>
+<p>​    对刚性分子，有$\overline{\epsilon}=\dfrac{i}{2}kT=$$\dfrac{3}{2}kT$（单）,$\dfrac{5}{2}kT$（双），$\dfrac{6}{2}kT$（多）</p>
+<p>​    当温度较低时，转动自由度$r$也被“冻结”，任何分子都可视为只有平动自由度。</p>
+<p>三.理想气体内能</p>
+<p>​        内能：系统内部各种形式能量的总和。（不包括系统整体质心运动的能量）</p>
+<p>​    分子自身：$\overline{\epsilon}=\overline{\epsilon_k}+\overline{\epsilon_p}=(t+r+2v)\dfrac{1}{2}kT$</p>
+<p>​    分子之间：相互作用势能$\epsilon_{pij}$</p>
+<p>​        内能：$E=N(\overline{\epsilon_k}+\overline{\epsilon_p})+\displaystyle\sum_i\displaystyle\sum_j\epsilon_{pij}=E(T,V)$，式中，分子自身的部分由$T$决定，分子之间的部分由$V$（气体活动范围，体积）决定。</p>
+<p>​        对理想气体：$\epsilon_{pij}=0$，$E=E(T)$</p>
+<p>​        刚性分子理想气体内能：</p>
+<p>​            $E=\dfrac{i}{2}kT·N=\dfrac{i}{2}\dfrac{R}{N_A}T\nu N_A=\dfrac{i}{2}\nu RT$，其中$i=r+t$（刚性分子），$\nu$是气体系统的摩尔数（物质的量）</p>
+<h3 id="7-3-麦克斯韦速率分布律"><a href="#7-3-麦克斯韦速率分布律" class="headerlink" title="7.3 麦克斯韦速率分布律"></a>7.3 麦克斯韦速率分布律</h3><p>​        速率分布律：分子数按速度大小的分布。</p>
+<p>一.统计规律的分布曲线</p>
+<p>​    小球落入其中一格是一个偶然事件。大量小球在空间的分布服从统计规律。</p>
+<p>二.速率分布函数</p>
+<p>​    深入研究气体的性质，不能光研究一些平均值，还应该进一步弄清分子按速率、能量的分布情况。若用分立数据写，则很繁琐，又不能很好的体现统计的规律性。</p>
+<p>​    若用连续的分布函数来描述：设$dN_v$为速率$v\rightarrow v+dv$区间内的分子数，$N$为总分子数，则：$dN_v\varpropto Ndv$，令$dN_v=f(v)Ndv$，即</p>
+<p>​    $f(v)=\dfrac{dN_v}{Ndv}$——在v附近，单位速率区间内分子数占总分子数的比例。</p>
+<p>​    对于一个分子来说，$f(v)$就是分子处于速率$v$附近单位速率区间的<u>概率</u>，称<u>速率分布函数</u>。</p>
+<p>​    归一化条件：$\int_0^{\infty}f(v)dv=\dfrac{1}{N}\int^N_0dN_v=1$。</p>
+<p><strong>麦克斯韦速率分布函数</strong></p>
+<p>​    1859年麦克斯韦导出了理气在无外场的平衡态$(T)$下，分子速率分布函数为：$f(v)=4\pi ·(\dfrac{m}{2\pi kT})^{\frac{3}{2}}·e^{-\frac{mv^2}{2kT}}·v^2$</p>
+<p>​    麦克斯韦速率分布是大量分子的统计规律性。碰撞使得个别分子的速率变化是随机的，概率的原则使得大量分子通过频繁碰撞达到$v$很小和$v$很大的概率都必然很小。</p>
+<p>三.三种统计速率</p>
+<p>​    1.最概然速率（最可几速率）</p>
+<p>​        相应于速率分布函数$f(v)$的极大值的速率$v_p$称为<u>最概然速率</u>。</p>
+<p>​        由$\dfrac{df(v)}{dv}|_{v=v_p}=0$，有：$v_p=\sqrt{\dfrac{2kT}{m}}=\sqrt{\dfrac{2RT}{M}}\varpropto\sqrt{T}$.</p>
+<p>​        就单位速率区间来比较，处在最概然速率$v_p$附近的分子数占总分子数的百分比最大。</p>
+<p>​        $v_p=\sqrt{\dfrac{2kT}{m}}\rightarrow f(v_p)=(\dfrac{8m}{\pi kT})^{\frac{1}{2}}e^{-1}$，当分子质量m一定时，若$T$升高，则$v_p$升高，$f(v_p)$降低。</p>
+<p>​        麦克斯韦速率分布函数的另一种表示：令$u=\dfrac{v}{v_p}$——简化速率，则有</p>
+<p>​        $\dfrac{dN_v}{N}=f(v)dv=\phi(u)du=\dfrac{4}{\sqrt{\pi}}e^{-u^2}·u^2·du$，当$\Delta u$很小时：$\dfrac{\Delta N}{N}=\phi(u)\Delta u$，$\Delta u=\dfrac{\Delta v}{v_p}$</p>
+<p>​    2.平均速率</p>
+<p>​        分立： 平均速率$\bar{v}=\dfrac{\sum N_iv_i}{\sum N_i}$</p>
+<p>​        连续：$v_i\rightarrow v$，$N_i\rightarrow dN_v=Nf(v)dv,\sum\rightarrow \int$，即$\bar{v}=\dfrac{\int^N_0vdN_v}{\int^N_0dN_v}=\int^N_0v\dfrac{dN_v}{N}=\int^{\infty}_0vf(v)dv$，对麦氏速率分布经计算得$\bar{v}=\sqrt{\dfrac{8kT}{\pi m}}=\sqrt{\dfrac{8RT}{\pi M}}$。</p>
+<p>​    3.方均根速率</p>
+<p>​        $\overline{v^2}=\int_0^{\infty}v^2f(v)dv=\dfrac{3kT}{m}$，$\sqrt{\overline{v^2}}=\sqrt{\dfrac{3kT}{m}}=\sqrt{\dfrac{3RT}{M}}$。</p>
+<p>​        $\sqrt{\overline{v^2}}$：讨论分子平均平动动能时用。</p>
+<p>​        $\bar{v}$：讨论分子碰撞问题时用。</p>
+<p>​        $v_p$：讨论分子的速率分布时用。</p>
+<h3 id="7-4-麦克斯韦速率分布律的实验验证"><a href="#7-4-麦克斯韦速率分布律的实验验证" class="headerlink" title="7.4 麦克斯韦速率分布律的实验验证"></a>7.4 麦克斯韦速率分布律的实验验证</h3><p>略</p>
+<h3 id="7-5-玻尔兹曼分布"><a href="#7-5-玻尔兹曼分布" class="headerlink" title="7.5 玻尔兹曼分布"></a>7.5 玻尔兹曼分布</h3><p>一.玻尔兹曼分布函数</p>
+<p>​    在考虑有重力外场时：$\overrightarrow{r}-\overrightarrow{r}+d\overrightarrow{r}$，$\overrightarrow{v}-\overrightarrow{v}+d\overrightarrow{v}$</p>
+<p>​    $f(\overrightarrow{r},\overrightarrow{v})=\dfrac{dN_{\overrightarrow{r}\overrightarrow{v}}}{Ndxdydzdv_xdv_ydv_z}=f(\overrightarrow{r})·f(\overrightarrow{v})$。</p>
+<p>​    类比速度分布函数有空间位置分布函数：</p>
+<p>​    $f(\overrightarrow{v})=c_{\overrightarrow{v}}e^{-\frac{\epsilon <em>k}{kT}}$——&gt;$f(\overrightarrow{r})=c</em>{\overrightarrow{r}}e^{-\frac{\epsilon _p}{kT}}$，</p>
+<p>​    $f(\overrightarrow{r},\overrightarrow{v})=c_{\overrightarrow{r}}c_{\overrightarrow{v}}e^{-\frac{\epsilon _k+\epsilon _p}{kT}}$（麦克斯韦——玻尔兹曼分布律）</p>
+<p>​    物理含义：函数分母上的$dxdydzdv_xdv_ydv_z$是状态区间，函数表示在坐标$\overrightarrow{r}$附近单位坐标间隔内，速度附近单位速度间隔内，分子数占总分子数的百分比。</p>
+<p>二.玻尔兹曼粒子按势能的分布</p>
+<p>​    $dN_{\overrightarrow{r}\overrightarrow{v}}=Nf(\overrightarrow{r},\overrightarrow{v})dxdydzdv_xdv_ydv_z$</p>
+<p>​    （公式太长择日再编辑）</p>
+<h3 id="7-6-范德瓦尔斯方程"><a href="#7-6-范德瓦尔斯方程" class="headerlink" title="7.6 范德瓦尔斯方程"></a>7.6 范德瓦尔斯方程</h3><p><strong>范氏方程</strong></p>
+<p>$(p+\dfrac{a}{V_m^2})(V_m-b)=RT(1mol)$</p>
+<p>$(p+\nu ^2\dfrac{a}{V_m^2})(V_m-\nu b)=\nu RT(\nu mol)$</p>
+<p><strong>范氏内能</strong></p>
+<p>$E_p(V_m)=\int_{V_m}^{\infty}-p_{in}dV_m=\int_{V_m}^{\infty}-\dfrac{a}{V_m^2}dV_m=-\dfrac{a}{V_m}$</p>
+<p>$E=\dfrac{i}{2}RT-\dfrac{a}{V_m}=E(T,V_m)(1mol)$（刚性）</p>
+<p>$E=\nu(\dfrac{i}{2}RT-\dfrac{a}{V/\nu})=\nu\dfrac{i}{2}RT-\nu^2\dfrac{a}{V}=E(T,V)(\nu mol)$</p>
+<h3 id="7-7-气体分子的平均自由程"><a href="#7-7-气体分子的平均自由程" class="headerlink" title="7.7 气体分子的平均自由程"></a>7.7 气体分子的平均自由程</h3><p>​        碰撞在分子运动中是个最活跃的因素，它在气体动理论中占有重要地位：非平衡—（碰撞）—平衡。</p>
+<p>​    一.平均碰撞频率与平均自由程的定义</p>
+<p>​        平均自由程$\bar{\lambda}$：气体分子在相邻两次碰撞间飞行的平均路程。</p>
+<p>​        平均碰撞频率$\bar{z}$：单位时间内一个气体分子与其它分子碰撞的平均次数。</p>
+<p>​        $\bar{\lambda}=\dfrac{\bar{v}}{\bar{z}}$</p>
+<p>​    二.平均碰撞频率与平均自由程公式</p>
+<p>​        理想气体，在平衡态下，并假定</p>
+<p>​            1.只有一种分子；</p>
+<p>​            2.分子可视作直径为d的钢球；</p>
+<p>​            3.被考虑的分子以平均相对速率运动，其余分子精致。</p>
+<p>​        设$\sigma$为碰撞界面。$\sigma$单位时间内扫过的体积=$\sigma ·\bar{u}$，则$\bar{z}=\sigma\bar{u}·n=\pi d^2n\bar{u}$，碰撞夹角θ有各种可能(0——180)，$\bar{\theta}=90^{\circ}\rightarrow\bar{u}=\sqrt{2}\bar{v}$，因此$\bar{z}=\sqrt{2}\pi d^2n\bar{v}$</p>
+<p>​    三.平均自由程与压强、温度的关系</p>
+<p>$\bar{\lambda}=\dfrac{\bar{v}}{\bar{z}}=\dfrac{1}{\sqrt{2}\pi d^2n}$，$p=nkT$，有$\bar{\lambda}=\dfrac{kT}{\sqrt{2}\pi d^2p}\varpropto\dfrac{T}{p}$</p>
 
             </div>
             <hr/>
@@ -652,12 +732,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/">
-                                    <span class="chip bg-color">大学物理</span>
-                                </a>
-                            
                                 <a href="/tags/%E7%AC%94%E8%AE%B0/">
                                     <span class="chip bg-color">笔记</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/">
+                                    <span class="chip bg-color">大学物理</span>
                                 </a>
                             
                         </div>
@@ -1164,7 +1244,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.4k</span>&nbsp;字
+                class="white-color">4.4k</span>&nbsp;字
             
             
             

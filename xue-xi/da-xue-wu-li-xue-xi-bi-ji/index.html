@@ -409,14 +409,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.5k
+                    2.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    5 分
+                    8 分
                 </div>
                 
 
@@ -540,6 +540,55 @@
 <p>​        $n=\dfrac{N}{V}$——分子数密度（足够大），</p>
 <p>​        $n_i=\dfrac{N_i}{V}$——速度为$\overrightarrow{v_i}$的分子数密度，</p>
 <p>​        $N=\displaystyle\sum_iN_i$，$n=\displaystyle\sum_in_i$.</p>
+<p><img src=".._data%5Cpictures%5C%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C7.1.png" alt="理想气体压强公式推导"></p>
+<p>​        取器壁上小面元dA&gt;&gt;分子截面面积</p>
+<p>​        第1步：一个分子碰壁对dA的冲量</p>
+<p>​            设该分子速度为$\overrightarrow{v_i}$，冲量时$2mv_{ix}$</p>
+<p>​        第2步：dt时间内所有$\overrightarrow{v_i}$分子对dA的冲量        </p>
+<p>​            $dI_i=(2mv_{ix})(n_iv_{ix}dtdA)=2n_imv^2_{ix}dtdA$</p>
+<p><img src=".._data%5Cpictures%5C%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C7.2.png" alt="理想气体压强公式推导"></p>
+<p>​        第3步：dt时间内所有分子对dA的冲量</p>
+<p>​            $dI=\displaystyle\sum_{v_{ix}&gt;0}dI_i=\dfrac{1}{2}\displaystyle\sum_idI_i=\displaystyle\sum_in_imv_{ix}^2dtdA$</p>
+<p>​        第4步：由压强的定义得出结果</p>
+<p>​            $P=\dfrac{dF}{dA}=\dfrac{dI}{dtdA}=\displaystyle\sum_in_imv^2_{ix}=\displaystyle\sum_i\dfrac{N_i}{V}mv_{ix}^2=\dfrac{m}{V}\displaystyle\sum_iN_iv^2_{ix}$，</p>
+<p>​        结合$\overline{v^2_x}=\dfrac{\displaystyle\sum_iN_iv^2_{ix}}{N}$，可得到$P=nm\overline{v^2_x}$或$P=\dfrac{1}{3}mn\overline{v^2}$。</p>
+<p>​        因为分子的平均平动动能$\overline{\epsilon_t}=\dfrac{1}{2}m\overline{v^2}$，故还可以表示成$P=\dfrac{2}{3}n\overline{\epsilon_t}$，这就是气体压强公式。</p>
+<p>​    气体压强公式指出，有两个途径可以增加压强。</p>
+<p>​        1.增加分子数密度n，即增加碰壁的个数。</p>
+<p>​        2.增加分子运动的平均平动动能，即增加每次碰壁的强度。</p>
+<p>​    <strong>注意：压强只有统计意义。</strong></p>
+<p>四.温度的统计意义</p>
+<p>​        由$P=\dfrac{2}{3}n\overline{\epsilon_t}$与$P=nkT$，得到$\overline{\epsilon_t}=\dfrac{3}{2}kT$.<br>​    1.温度是大量分子的集体行为，是统计的结果。（分子数目少则无意义）</p>
+<p>​    2.物理意义</p>
+<p>​        温度是分子热运动剧烈程度的量度，T是大量分子热运动平均平动动能的亮度。</p>
+<p>​        由$\overline{\epsilon_t}=\dfrac{1}{2}m\overline{v^2}$和$\overline{\epsilon_t}=\dfrac{3}{2}kT$得到$\sqrt{\overline{v^2}}=\sqrt{\dfrac{3kT}{m}}=\sqrt{\dfrac{3RT}{\mu}}\varpropto\sqrt{T}$。</p>
+<p>​        $\sqrt{\overline{v^2}}$称为方均根速率。</p>
+<h3 id="7-2-能量均分定理"><a href="#7-2-能量均分定理" class="headerlink" title="7.2 能量均分定理"></a>7.2 能量均分定理</h3><p>一.气体分子自由度</p>
+<p>​        自由度：决定物体空间位置的独立坐标数，用 i 表示。</p>
+<p>​    1.单原子分子</p>
+<p>​        如：He, Ne …</p>
+<p>​        可作质点处理，因而只有平动。 t——平动自由度</p>
+<p>​    2.双原子分子</p>
+<p>​        如：O2, H2, CO …</p>
+<p>​        质心C平动：</p>
+<p>​            t=3（x, y, z）</p>
+<p>​        轴取向：</p>
+<p>​            r——转动自由度</p>
+<p>​            r = 2 (θ， φ)</p>
+<p>​        距离 l 变化：</p>
+<p>​            v——振动自由度</p>
+<p>​            v = 1 ( l )</p>
+<p>​        总自由度 i = t + r + v = 6</p>
+<p><img src=".._data%5Cpictures%5C%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C7.3.png"></p>
+<p>​    3.多原子分子</p>
+<p>​        如：H2O， NH3 …</p>
+<p>​        N：分子中的原子数</p>
+<p>​            i = t + r + v = 3N</p>
+<p>​            t = 3 (质心坐标 x, y, z)</p>
+<p>​            r = 3(θ, φ, ψ)</p>
+<p>​            v= 3N - 6</p>
+<p><img src=".._data%5Cpictures%5C%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%5C7.4.png"></p>
+<p>二.能量均分定理</p>
 
             </div>
             <hr/>
@@ -1115,7 +1164,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.8k</span>&nbsp;字
+                class="white-color">2.4k</span>&nbsp;字
             
             
             

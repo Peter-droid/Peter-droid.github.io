@@ -29,9 +29,9 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.2.0">
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="学习使我快乐" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="学习使我快乐" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -409,14 +409,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4k
+                    7.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    16 分
+                    28 分
                 </div>
                 
 
@@ -669,6 +669,226 @@
 <p>​        设$\sigma$为碰撞界面。$\sigma$单位时间内扫过的体积=$\sigma ·\bar{u}$，则$\bar{z}=\sigma\bar{u}·n=\pi d^2n\bar{u}$，碰撞夹角θ有各种可能(0——180)，$\bar{\theta}=90^{\circ}\rightarrow\bar{u}=\sqrt{2}\bar{v}$，因此$\bar{z}=\sqrt{2}\pi d^2n\bar{v}$</p>
 <p>​    三.平均自由程与压强、温度的关系</p>
 <p>$\bar{\lambda}=\dfrac{\bar{v}}{\bar{z}}=\dfrac{1}{\sqrt{2}\pi d^2n}$，$p=nkT$，有$\bar{\lambda}=\dfrac{kT}{\sqrt{2}\pi d^2p}\varpropto\dfrac{T}{p}$</p>
+<h2 id="第八章（一）-热力学"><a href="#第八章（一）-热力学" class="headerlink" title="第八章（一） 热力学"></a>第八章（一） 热力学</h2><p><strong>学习热力学的意义</strong></p>
+<p>1.掌握自然界的基本规律</p>
+<p>​    热一：能量守恒</p>
+<p>​    热二：自然过程的方向</p>
+<p>2.学习唯象的研究方法</p>
+<p>​    以实验为基础的逻辑推理的研究方法</p>
+<h3 id="8-1-1-功、内能、热量"><a href="#8-1-1-功、内能、热量" class="headerlink" title="8.1.1 功、内能、热量"></a>8.1.1 功、内能、热量</h3><p>一.功</p>
+<ul>
+<li>做功可以改变系统状态</li>
+</ul>
+<p>​        摩擦升温（机械功）、电加热（电功）</p>
+<ul>
+<li><p>功是过程量</p>
+<p>准静态过程的体积功$dA=\overrightarrow{F}·d\overrightarrow{l}=psdl=pdV$，$A=\int_{V_1}^{V_2}pdV$</p>
+<p><strong>注意：非静态过程不适用</strong></p>
+</li>
+</ul>
+<p>二.内能</p>
+<p>​    广义：系统内所有粒子各种能量总和：平动、转动、振动能量、化学能、原子能、核能…不包括系统整体机械能</p>
+<p>​    狭义：所有分子热运动能量和分子间相互作用势能。例：实际气体$E=E(T,V)$，理想气体$E=\nu \dfrac{i}{2}RT=E(T)$。</p>
+<p>​    内能$E$是状态量。</p>
+<p>​    内能变化$\Delta E$只与初末状态有关，与所经过的过程无关，可以在初、末态间任选最简便的过程进行计算。</p>
+<p>​    内能变化的方式：<strong>做功、热传递</strong></p>
+<p>三.热量</p>
+<ul>
+<li>传热过程中所传递的能量的多少——热量</li>
+<li>传热改变系统的内能</li>
+<li>传热是过程量</li>
+</ul>
+<p>中学：$Q=cM\Delta T$</p>
+<p><strong>A与Q比较</strong></p>
+<table>
+<thead>
+<tr>
+<th>E改变方式</th>
+<th>特点</th>
+<th>能量转换</th>
+<th>量度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>做功</td>
+<td>与宏观位移相联系，通过非保守力做功实现</td>
+<td>外界机械能——系统内能</td>
+<td>A</td>
+</tr>
+<tr>
+<td>热传递</td>
+<td>与温差相联系，通过分子碰撞实现</td>
+<td>外界内能——系统内能</td>
+<td>Q</td>
+</tr>
+</tbody></table>
+<p>在系统状态变化过程中，$A，Q，\Delta E$间数量关系——包含热运动和机械运动范围的能量守恒定律——<strong>热力学第一定律</strong></p>
+<h3 id="8-1-2-热力学第一定律"><a href="#8-1-2-热力学第一定律" class="headerlink" title="8.1.2 热力学第一定律"></a>8.1.2 热力学第一定律</h3><p>1.数学形式</p>
+<p>​    $Q=(E_2-E_1)+A$：系统从外界吸热（Q&gt;0）=内能增量+系统对外界做功(A&gt;0)</p>
+<p>​    一切过程、一切系统：$dQ=dE+dA$</p>
+<p>​    准静态：$dQ=dE+pdV$</p>
+<p>​    理气准静态：$dQ=\nu \dfrac{i}{2}RdT+pdV$</p>
+<p>2.物理意义</p>
+<p>​    设计热运动和机械运动的能量转换及守恒定律</p>
+<p>3.又一表述：</p>
+<p>​    第一类永动机是不可能制成的</p>
+<p>​    <u>第一类永动机：系统不断经历状态变化后回到初态，不消耗内能，不从外界吸热，只对外做功。</u>即：$\Delta E=0, Q=0,A&gt;0$，违反热力学第一定律。</p>
+<h3 id="8-1-3-热容"><a href="#8-1-3-热容" class="headerlink" title="8.1.3 热容"></a>8.1.3 热容</h3><p>一.摩尔热容（量）</p>
+<p>​    定义系统（摩尔数为$\nu$）温度升高1度所吸收的热量为系统的<u>热容量</u>，即$C=\dfrac{dQ}{dT}$</p>
+<p>​    <u>定体热容量</u>$C_V=(\dfrac{dQ}{dT})_V$（体积不变）</p>
+<p>​    <u>定压热容量</u>$C_p=(\dfrac{dQ}{dT})_p$（压强不变）</p>
+<p>​    一摩尔物质温度升高1度所吸收的热量叫<u>摩尔热容量</u>，即：$C_m=\dfrac{1}{\nu}(\dfrac{dQ}{dT})$</p>
+<p>​    <u>定体摩尔热容量</u>：$C_{V,m}=\dfrac{1}{\nu}(\dfrac{dQ}{dT})_V$</p>
+<p>​    <u>定压摩尔热容量</u>：$C_{p,m}=\dfrac{1}{\nu}(\dfrac{dQ}{dT})_p$</p>
+<p>二.用摩尔热容表示理想气体的内能</p>
+<p>​    等体过程：$dA_V=0$，$dQ_V=dE_V，dQ_V=\nu C_{V,m}dT$，</p>
+<p>​    $dE_V=\nu C_{V,m}dT$</p>
+<p>​    任意元过程：</p>
+<p>​    $dE=dE_V+dE_T=\nu C_{V,m}dT$，若$C_{V,m}=const.$，则$\Delta E=\nu C_{V,m}\Delta T$。</p>
+<p>​    上式称为理想气体内能公式。</p>
+<p>三.迈耶公式</p>
+<p>​    对理想气体：$C_{p,m}=C_{V.m}+R$</p>
+<p>​    定义：<u>比热容比</u>$\gamma=\dfrac{C_{p,m}}{C_{V,m}}$，$\gamma=\dfrac{C_{p,m}}{C_{V,m}}=\dfrac{\dfrac{i}{2}+R}{\dfrac{i}{2}R}=\dfrac{i+2}{i}$。热容量是可以实验测量的。在大的温度范围上看，热容与温度有关。即$C_{p,m},C_{V.m},\gamma$都并非常量。（由于能量的量子化，温度过低时无法达到某些能量的跃迁能级，导致该自由度被“冻结”）</p>
+<h3 id="8-1-4-理想气体的绝热过程"><a href="#8-1-4-理想气体的绝热过程" class="headerlink" title="8.1.4 理想气体的绝热过程"></a>8.1.4 理想气体的绝热过程</h3><p>一.绝热过程</p>
+<p>​    系统和外界没有热量交换的过程。</p>
+<p>​    例如：</p>
+<ul>
+<li><p>良好绝热材料包围的系统发生的过程；</p>
+</li>
+<li><p>进行的较快而来不及和外界交换热量的过程。</p>
+<p>特点：$dQ=0$，</p>
+<p>由热力学第一定律$dQ=dE+dA$，得到$dE=-dA$</p>
+</li>
+</ul>
+<p>二.准静态绝热过程的过程方程</p>
+<p>​    由热一：$dQ=dE+dA=0$和准静态条件：$\nu C_{V,m}dT+pdV=0$</p>
+<p>​    及理想气体方程$pV=\nu RT$，两边求微分，$pdV+Vdp=\nu RdT$，消去$dT$，得</p>
+<p>​    $(\dfrac{C_{V,m}}{R}+1)pdV+Vdp=0$，由迈耶公式$C_{p,m}=C_{V,m}+R$和比热容比$\gamma=\dfrac{C_{p,m}}{C_{V,m}}$，</p>
+<p>​    解出$pV^{\gamma}=const.  ,p^{\gamma -1}T^{-\gamma}=const. , V^{\gamma -1}T=const.$</p>
+<p>三.绝热线</p>
+<p>​    过pv图中某点A。</p>
+<p>​    等温线：$pV=const.$，是双曲线。</p>
+<p>​    绝热线：$pV^{\gamma}=const.$。因为$\gamma&gt;1$，因此绝热线比等温线陡。</p>
+<p>​    进一步解释：由$(p_A,V_A)$压缩同样体积</p>
+<p>​    $p=nkT$，等温：$V\downarrow n\uparrow p\uparrow$，</p>
+<p>​    绝热：$V\downarrow n\uparrow T\uparrow$，</p>
+<p>​    所以$\Delta p_{dQ=0}&gt;\Delta p_{dT=0}$</p>
+<h3 id="8-1-5-循环过程"><a href="#8-1-5-循环过程" class="headerlink" title="8.1.5 循环过程"></a>8.1.5 循环过程</h3><p>一系统，或工作物质，简称工质，经历一系列变化后又回到初始状态的整个过程叫循环过程，简称循环。共同特征：$\Delta E=0,Q_净=A_净$。</p>
+<p>一般从高温热库吸热$Q_1$，对外做净功$A$，向低温热库放热$Q_2$，（只表示数值），$A=Q_1-Q_2&gt;0$，则为正循环，反之为逆循环。</p>
+<p>循环为准静态过程，在状态图中对应闭合曲线。</p>
+<p>正循环过程对应热机，逆循环过程对应制冷机。</p>
+<p>热机效率：$\eta = \dfrac{A}{Q_1}=1-\dfrac{Q_2}{Q_1}$</p>
+<p>制冷系数：$\omega = \dfrac{Q_2}{A}=\dfrac{Q_2}{Q_1-Q_2}$</p>
+<h3 id="8-1-6-卡诺循环"><a href="#8-1-6-卡诺循环" class="headerlink" title="8.1.6 卡诺循环"></a>8.1.6 卡诺循环</h3><p><u>卡诺循环</u>：工质只和两个恒温热库交换热量的准静态、无摩擦的循环。</p>
+<p>图略。</p>
+<p>结论：$\eta = 1-\dfrac{T_2}{T_1}$</p>
+<p>$\omega = \dfrac{T_2}{T_1-T_2}$（$T_1$：高温热库的温度，$T_2$：低温热库的温度）</p>
+<h2 id="第八章（二）-热力学第二定律"><a href="#第八章（二）-热力学第二定律" class="headerlink" title="第八章（二） 热力学第二定律"></a>第八章（二） 热力学第二定律</h2><h3 id="8-2-1-自然过程的方向"><a href="#8-2-1-自然过程的方向" class="headerlink" title="8.2.1 自然过程的方向"></a>8.2.1 自然过程的方向</h3><p>一.可逆过程与不可逆过程</p>
+<ol>
+<li><p>定义：</p>
+<p>一个系统经过一个过程P从一状态变化到另一状态，若沿原过程P反向行进并能保持系统和外界完全复原，说明原过程P是可逆的，否则是不可逆的。</p>
+</li>
+<li><p>注意关键词</p>
+<ul>
+<li>沿着原过程P反向进行</li>
+<li>系统和外界全复原</li>
+<li>可逆过程是理想过程</li>
+</ul>
+</li>
+<li><p>只有准静态、无摩擦的过程才是可逆过程。（必要条件）</p>
+</li>
+</ol>
+<p>二.一切自然过程都是不可逆过程：自然过程有方向性。</p>
+<h3 id="8-2-2-不可逆性的相互依存"><a href="#8-2-2-不可逆性的相互依存" class="headerlink" title="8.2.2 不可逆性的相互依存"></a>8.2.2 不可逆性的相互依存</h3><p>例如：热二的开氏表述可以导出气体不可能自动收缩。</p>
+<p>实际上，一切不可逆过程都是相互沟通的，热力学第二定律是说明自然宏观过程进行方向的规律。</p>
+<p>任何一种不可逆过程的表述，都可作为热力学第二定律的表述。</p>
+<h3 id="8-2-3-热力学第二定律及其微观意义"><a href="#8-2-3-热力学第二定律及其微观意义" class="headerlink" title="8.2.3 热力学第二定律及其微观意义"></a>8.2.3 热力学第二定律及其微观意义</h3><p>​        热力学第二定律是关于自然过程方向的一条基本的、普遍的定律，它是较热力学第一定律层次更深的规律。</p>
+<p>一.热力学第二定律的两种表述：</p>
+<ol>
+<li><p>开氏表述</p>
+<p>唯一效果是热量全部转换为功的过程是不可能的。（第二类永动机不可能制成）</p>
+</li>
+<li><p>克氏表述</p>
+<p>热量不可能自发的从低温物体传向高温物体。</p>
+</li>
+</ol>
+<p><strong>自然过程总是按有序变无序的方向进行</strong>，微观意义：一切自然过程总是沿着分子热运动的无序性增大的方向进行。</p>
+<p>二.卡诺定理</p>
+<ol>
+<li><p>在相同的高温热库和相同的低温热库之间工作的一切可逆热机，其效率都相等，与工质无关。</p>
+</li>
+<li><p>在相同的高温热库和低温热库之间工作的一切不可逆热机，其效率都不可能大于可逆热机的效率。</p>
+<p>卡诺定理的意义：给出了实际热机效率的极限($1-\dfrac{T_2}{T_1}$)，给出了提高热机效率的途径：减少不可逆因素。</p>
+</li>
+</ol>
+<h3 id="8-2-4-热力学概率与自然过程的方向"><a href="#8-2-4-热力学概率与自然过程的方向" class="headerlink" title="8.2.4 热力学概率与自然过程的方向"></a>8.2.4 热力学概率与自然过程的方向</h3><p>一.热力学概率</p>
+<p>​    自发过程的方向性从微观上看是大量分子无规律运动的结果。以气体自由膨胀为例分析：分子数的左右分布称为<u>宏观态</u>。具体分子的左右分布称为<u>微观态</u>。</p>
+<p>​    某宏观态所包含的微观态数$\Omega$叫该宏观态的<u>热力学概率</u>。</p>
+<p>​    统计理论的基本假设：对于孤立系统，各微观态出现的概率是相同的。</p>
+<p>​    在诸多宏观态中，热力学概率大的宏观态最容易出现。（平衡态）</p>
+<p>​    热二律的微观解释：自发过程的方向性是从有序$\Omega _小$向无序$\Omega _大$的。</p>
+<p>二.热二律的统计意义</p>
+<p>​    一个孤立系统其内部自发进行的过程总是由热力学概率小的宏观态向热力学概率大的宏观态过度。</p>
+<p>​    热力学第二定律只是个统计规律，它只适用于大量分子的系统。</p>
+<h3 id="8-2-5-态函数熵与熵增加原理"><a href="#8-2-5-态函数熵与熵增加原理" class="headerlink" title="8.2.5 态函数熵与熵增加原理"></a>8.2.5 态函数熵与熵增加原理</h3><p>一.熵的定义</p>
+<p>​    玻尔兹曼定义式$S=k\ln\Omega$，其中$k$是玻尔兹曼常数。</p>
+<ul>
+<li>熵是状态参量，是系统紊乱程度的量度，与$E,T,P$同地位，具有相对论不变性</li>
+<li>引入熵的意义：理论上：是热力学系统的共同特征，是判断自然过程的统一标准。</li>
+</ul>
+<p>二.熵增加原理</p>
+<ol>
+<li><p>用熵$S$表述热力学第二定律：孤立系统中自然发生的热力学过程总是向着熵增大的方向进行。</p>
+<p>条件：孤立系统（绝热、无外界影响，$Q=0,A=0$）、自然发生（不可逆）</p>
+<p>结论：$\Delta S&gt;0$（可逆过程$\Delta S=0$）或者如下表述：孤立系统内进行的过程，熵永不减少。$\Delta S \geq 0$。</p>
+</li>
+<li><p>意义</p>
+<ul>
+<li>是统计规律：熵减小的过程不是绝对不可能发生，而是在大量粒子组成的群体中出现的概率太小，以至于不出现。</li>
+<li>是普遍规律：任何事物如果任其发展，其混乱程度一定有增无减。</li>
+<li>熵增与能量退化、贬值对应：实际热力学过程都是不可逆的</li>
+</ul>
+</li>
+</ol>
+<p>三.克劳修斯熵</p>
+<ol>
+<li><p>克劳修斯等式</p>
+<p>由卡诺循环，$\eta = 1-\dfrac{T_2}{T_1}$，$\eta = 1-\dfrac{|Q_2|}{Q_1}=1+\dfrac{Q_2}{Q_1}$，$\dfrac{Q_1}{T_1}+\dfrac{Q_2}{T_2}=0$，</p>
+<p>可逆循环中有$\displaystyle\sum_i\dfrac{Q_i}{T_i}=0$,</p>
+<p>在可逆循环中，有克劳修斯等式$\displaystyle\oint_R\dfrac{dQ}{T}=0$。R表示可逆，$\dfrac{dQ}{T}$是热温比。</p>
+</li>
+<li><p>熵</p>
+<p>由克劳修斯等式$\displaystyle\oint_R\dfrac{dQ}{T}=0$，得知存在一个与过程无关的状态量。</p>
+<p>$\displaystyle\oint_{(1)}^{(2)}\dfrac{dQ}{T}+\displaystyle\oint_{(2)}^{(1)}\dfrac{dQ}{T}=0$可知积分与路径无关。令$\displaystyle\oint_{(1)}^{(2)}\dfrac{dQ}{T}=S_2-S_1=\Delta S$，将$S$称为熵。单位：$J/K$。</p>
+<p>对于可逆的元过程，有：$dS=\dfrac{dQ_r}{T}$，其中$dS$是微小可逆过程中的熵变，$dQ_r$是微笑可逆过程中吸收的热，$T$是微小可逆过程中的温度。</p>
+<p>熵是状态参量，与温度无关。</p>
+</li>
+</ol>
+<p><strong>注意</strong></p>
+<ol>
+<li><p>熵是系统的状态函数，其微观意义是系统内分子热运动的无序性的量度。</p>
+<p>玻尔兹曼熵：适用于任意宏观态（可以是非平衡态，更普遍。）</p>
+<p>克劳修斯熵：只适用与平衡态。</p>
+</li>
+<li><p>熵计算时，<u>都使用克劳修斯熵公式</u>。</p>
+</li>
+<li><p>积分路线必须是连接始末两态的任一可逆过程（可设计）。</p>
+</li>
+<li><p>玻尔兹曼熵可以导出克劳修斯熵。</p>
+</li>
+</ol>
+<p>四.熵的计算</p>
+<ol>
+<li><p>热力学基本方程</p>
+<p>热一律：$dQ=dE+dA$</p>
+<p>可逆过程的热一律：$TdS=dE+pdV$</p>
+<p>得$dS=\dfrac{pdV+dE}{T}$</p>
+</li>
+<li><p>理想气体态函数熵的计算公式</p>
+<p>$dS=\dfrac{pdV}{T}+\dfrac{dE}{T}=\dfrac{\nu R}{V}dV+\dfrac{\nu C_{V,m}}{T}dT$，两边积分得</p>
+<p>$\Delta S=\nu R\ln \dfrac{V_2}{V_1}+\nu C_{V,m}\ln\dfrac{T_2}{T_1}$。（$V_1,T_1$是初始状态，$V_2,T_2$是末状态。）</p>
+</li>
+</ol>
 
             </div>
             <hr/>
@@ -970,12 +1190,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
-                    </a>
-                    
                     <a href="/tags/%E6%A6%82%E7%BB%9F/">
                         <span class="chip bg-color">概统</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">笔记</span>
                     </a>
                     
                 </div>
@@ -1244,7 +1464,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">4.4k</span>&nbsp;字
+                class="white-color">7.4k</span>&nbsp;字
             
             
             

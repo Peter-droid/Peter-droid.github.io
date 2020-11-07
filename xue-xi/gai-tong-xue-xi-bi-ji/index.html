@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="first article, 学习使我快乐">
+    <meta name="keywords" content="概统学习笔记, 学习使我快乐">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>first article | 学习使我快乐</title>
+    <title>概统学习笔记 | 学习使我快乐</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -249,12 +249,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">first article</h1>
+                    <h1 class="description center-align post-title">概统学习笔记</h1>
                 </div>
             </div>
         </div>
@@ -371,8 +371,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%B5%8B%E8%AF%95/">
-                                <span class="chip bg-color">测试</span>
+                            <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">笔记</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%A6%82%E7%BB%9F/">
+                                <span class="chip bg-color">概统</span>
                             </a>
                         
                     </div>
@@ -383,8 +387,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/" class="post-category">
-                                测试分类
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                学习
                             </a>
                         
                     </div>
@@ -396,7 +400,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-10-22
+                    2020-10-26
                 </div>
                 
 
@@ -405,14 +409,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    17
+                    3.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    13 分
                 </div>
                 
 
@@ -427,16 +431,234 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>代码测试</p>
-<pre class="line-numbers language-c++"><code class="language-c++">#include <iostream>
-using namespace::std;
-
-int main(void){
-    cout << "hello world!" << endl;
-    return 0;
-}
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
+                <h2 id="第1章-概率论的基本概念"><a href="#第1章-概率论的基本概念" class="headerlink" title="第1章 概率论的基本概念"></a>第1章 概率论的基本概念</h2><h3 id="1-1-随机事件与随机变量"><a href="#1-1-随机事件与随机变量" class="headerlink" title="1.1 随机事件与随机变量"></a>1.1 随机事件与随机变量</h3><ol>
+<li><p>随机现象及其统计规律</p>
+<p>客观现象可分为两大类：确定性现象和非确定性现象，称不确定现象为随机现象。</p>
+</li>
+<li><p>随机试验与随机事件</p>
+<p>具有以下特征的试验称为<u>随机试验</u>：</p>
+<ul>
+<li>可在相同条件下重复进行</li>
+<li>试验的全部可能结果，在试验前就明确知道</li>
+<li>一次试验结束之前，不能准确预知哪一个结果将会出现</li>
+</ul>
+<p>随机事件：<u>随机试验中可能发生也可能不发生的事情</u></p>
+<p>在随机事件中必然发生的事件称为<u>必然事件</u>，必然不发生的事件称为<u>不可能事件</u>。</p>
+</li>
+<li><p>样本空间与随机变量</p>
+<p><u>基本事件</u>：随机试验E中必发生一个且仅发生一个的最简单事件。</p>
+<p><u>复合事件</u>：由若干基本事件组合而成的事件。（基本事件和复合事件具有相对性）</p>
+<p>由全体基本事件所对应的全部元素所组成的集合，称为随机试验E的<u>样本空间</u>，成样本空间中的每一个元素ω为<u>样本点</u>。</p>
+<p>定义在样本空间上的变量是<u>随机变量</u>。</p>
+</li>
+<li><p>事件的关系与运算</p>
+<ul>
+<li><p>包含关系：$A\subset B$</p>
+<p>事件A发生必然导致事件B发生，称事件B包含事件A。</p>
+<p>若$A\subset B$且$B\subset A$，则称A与B相等，记为A=B。</p>
+</li>
+<li><p>和事件：事件</p>
+<p>$A\cup B={\omega | \omega \in A 或\omega \in B}$，称为事件A与事件B的和，当且仅当A与B中至少有一个发生时，事件$A \cup B$发生。</p>
+</li>
+<li><p>积事件：事件</p>
+<p>$A\cap B={\omega | \omega \in A 且\omega \in B}$，称为事件A与事件B的积，当且仅当A和B同时发生时，事件$A\cap B$发生。A和B的积事件也可记为$AB$。</p>
+</li>
+<li><p>互不相容事件：</p>
+<p>若$A\cap B = \oslash$，则称事件A与B互不相容或互斥。即事件A与B不能同时发生。</p>
+</li>
+<li><p>对立事件：</p>
+<p>若$A\cap B=\oslash$且$A\cup B=\Omega$，则称事件A与事件B互为对立事件或逆事件。即每次试验，A和B必有一个发生，且仅有一个发生。事件$A$的对立事件记为$\bar{A}$。</p>
+</li>
+</ul>
+</li>
+<li><p>在进行事件运算时，常用的运算规律：</p>
+<ul>
+<li><p>交换律：$A\cup B=B\cup A,AB=BA$</p>
+</li>
+<li><p>结合律：$A\cup(B\cup C)=(A\cup B)\cup C,A(BC)=(AB)C$</p>
+</li>
+<li><p>分配律：$A(B\cup C)=(AB)\cup (AC)$</p>
+<p>$A\cup(B\cap C)=(A\cup B)\cap (A\cup C)$</p>
+<p>$A(B-C)=AB-AC$</p>
+</li>
+<li><p>吸收律：若$A\subset B$，则$AB=A,A\cup B=B$</p>
+</li>
+<li><p>摩尔根公式：$\overline{A\cup B}=\overline{A}\cap \overline{B},\overline{A\cap B}=\overline{A}\cup \overline{B}$</p>
+</li>
+</ul>
+</li>
+</ol>
+<h3 id="1-2-概率"><a href="#1-2-概率" class="headerlink" title="1.2 概率"></a>1.2 概率</h3><ol>
+<li><p>概率：概率是对随机事件发生可能性大小的一个客观度量</p>
+</li>
+<li><p>频率：设在相同条件下，进行n次试验，事件A发生了m次，称比值$f_n(A)=\dfrac{m}{n}$为事件的发生频率。</p>
+</li>
+<li><p>古典概率：</p>
+<p>定义1：设E是一个随机试验，若它满足以下两个条件：</p>
+<ul>
+<li>仅有有限个基本事件</li>
+<li>每个基本事件发生的可能性相等</li>
+</ul>
+<p>则称E为<u>古典概型</u>试验。古典概型试验的样本空间仅有有限个样本点。</p>
+<p>定义2：设试验E为古典概型试验，$A_i(i=1,2,…,n)$是全体基本事件，则由$P(A)=\dfrac{A所含基本事件个数}{基本事件总数}$所确定的概率称为事件$A$的<u>古典概率</u>。</p>
+</li>
+<li><p>概率的公理化定义与性质</p>
+<p>定义1：设随机事件E的样本空间为$\Omega$，若对于E的每一事件A都对应一个实数$P(A)$，其对应规则满足以下三条：</p>
+<ul>
+<li>（非负性）对任意事件$A$，有$0\leq P(A)\leq1$</li>
+<li>（规范性）$P(\Omega)=1$</li>
+<li>（可列可加性）对E的互不相容事件$A_1,A_2,…$有$P(\displaystyle\bigcup_{i=1}^{\infty}A_i)=\displaystyle\sum_{i=1}^{\infty}P(A_i)$</li>
+</ul>
+<p>则称$P(A)$是事件A的<u>概率</u>。</p>
+<p>由概率公理化定义，得到概率的以下性质：</p>
+<ul>
+<li>$P(\oslash)=0$</li>
+<li>（有限可加性）若试验E的事件组$A_1,A_2,…,A_m$互不相容，则有$P(\displaystyle\bigcup_{i=1}^{m}A_i)=\displaystyle\sum_{i=1}^{m}P(A_i)$</li>
+<li>对任何事件A有$P(A)+P(\bar{A})=1$</li>
+<li>（单调性）若事件A和事件B满足$A\sub B$，则$P(A)\leq P(B)$和$P(B-A)=P(B)-P(A)$</li>
+</ul>
+<p>概率加法定理：对试验E的任意两个事件A和B，有$P(A\cup B)=P(A)+P(B)-P(AB)$</p>
+</li>
+</ol>
+<h3 id="1-3-条件概率"><a href="#1-3-条件概率" class="headerlink" title="1.3 条件概率"></a>1.3 条件概率</h3><ol>
+<li><p>条件概率</p>
+<p>定义：设A，B是随机试验E的两个随机事件，且$P(B)&gt;0$，称$P(A|B)=\dfrac{P(AB)}{P(B)}$为在事件B发生的条件下，事件A发生的<u>条件概率</u>。</p>
+<p>性质：设随机事件E的样本空间是$\Omega$，A，B，$A_1$，$A_2$,…都是E的事件，若$P(B)&gt;0$，则</p>
+<ul>
+<li>对每一事件A，有$0\leq P(A|B)\leq1$</li>
+<li>$P(\Omega|B)=1$</li>
+<li>若事件$A_1,A_2,…$互不相容，则有$P(\displaystyle\bigcup_{i=1}^{\infty}A_i|B)=\displaystyle\sum_{i=1}^{\infty}P(A_i|B)$</li>
+</ul>
+</li>
+<li><p>乘法公式</p>
+<p>从条件概率的定义可直接得到下面的定理：</p>
+<p>设$P(B)&gt;0$，则有$P(AB)=P(B)P(A|B)$</p>
+<p>设$P(A)&gt;0$，则有$P(AB)=P(A)P(B|A)$</p>
+<p>上述公式可推广如下：</p>
+<p>设$A_1,A_2,…,A_n$是试验E的n个事件，若$P(A_1A_2…A_{n-1})&gt;0$，则</p>
+<p>$P(A_1A_2…A_{n})=P(A_1)P(A_2|A_1)P(A_3|A_1A_2)…P(A_n|A_1A_2…A_{n-1})$</p>
+</li>
+<li><p>全概率公式</p>
+<p>定义：设Ω为随机试验E的样本空间，$B_1,B_2,…,B_n$为E的一组事件，若</p>
+<ul>
+<li>$B_i\cap B_j=\oslash,i \neq j$</li>
+<li>$\displaystyle\bigcup_{i=1}^nB_i=\Omega$</li>
+</ul>
+<p>则称$B_1,B_2,…,B_n$为Ω的一个有限划分。</p>
+<p>定理（全概率公式）：设随机试验E的样本空间为Ω，$A\sub \Omega$，$B_1,B_2,…,B_n$为Ω的一个有限划分，且$P(B_i)&gt;0,i=1,2,…,n$，则有$P(A)=\displaystyle\sum_{i=1}^nP(B_i)P(A|B_i)$。</p>
+</li>
+<li><p>贝叶斯公式</p>
+<p>定理（贝叶斯公式）：设随机试验E的样本空间为Ω，$A\sub \Omega$，$B_i(i=1,2,…,n)$是Ω的一个有限划分，而且$P(A)&gt;0,P(B_i)&gt;0$,则有$P(B_i|A)=\dfrac{P(B_i)P(A|B)}{\displaystyle\sum_{j=1}^nP(B_j)P(A|B_j)}$</p>
+</li>
+</ol>
+<h3 id="1-4-事件的独立性"><a href="#1-4-事件的独立性" class="headerlink" title="1.4 事件的独立性"></a>1.4 事件的独立性</h3><ol>
+<li><p>两个事件的独立性</p>
+<p>定义：设A,B是随机试验E的事件，若满足$P(AB)=P(A)P(B)$，则称事件相互独立。</p>
+<p>定理：若事件A，B相互独立，则下列三对事件：$A$与$\bar{B}$，$\bar{A}$与$B$，$\bar{A}$与$\bar{B}$也分别相互独立。</p>
+</li>
+<li><p>n个事件的独立性</p>
+<p>定义1：对于试验E的三个事件A,B,C，若下面四个等式同时成立：</p>
+<ul>
+<li>$P(AB)=P(A)P(B)$</li>
+<li>$P(AC)=P(A)P(C)$</li>
+<li>$P(BC)=P(B)P(C)$</li>
+<li>$P(ABC)=P(A)P(B)P(C)$</li>
+</ul>
+<p>则称A,B,C所组成的<u>事件组相互独立</u>。若仅有前三个等式同时成立，则称此事件组是<u>两两独立</u>的。</p>
+<p>定义2：设$A_1,A_2,…,A_n$为随机试验E的事件，若对任意的s(1&lt;s≤n)及$1\leq i_1&lt;i_2&lt;…&lt;i_s\leq n$，有$P(A_{i_1}A_{i_2}…A_{i_s})=P(A_{i_1})P(A_{i_2})…P(A_{i_s})$，则称事件组$A_1,A_2,…,A_n$相互独立。</p>
+<p>定理：若n个事件$A_1,A_2,…,A_n$相互独立，则将它们中任意多个事件换成它们的对立事件，所得的n个事件仍然相互独立。</p>
+</li>
+</ol>
+<h2 id="第2章-随机变量的分布"><a href="#第2章-随机变量的分布" class="headerlink" title="第2章 随机变量的分布"></a>第2章 随机变量的分布</h2><h3 id="2-1-随机变量的分布函数"><a href="#2-1-随机变量的分布函数" class="headerlink" title="2.1 随机变量的分布函数"></a>2.1 随机变量的分布函数</h3><p>随机变量：设Ω是随机试验E的样本空间，若对于每一个样本点$\omega \in \Omega$，都有唯一的实数$X(\omega)$与之对应，且对于任意实数x，都有确定的概率$P{X(\omega)\leq x}$与之对应，则称$X(\omega)$为<u>随机变量</u>，简记为X。</p>
+<p>分布函数：设Ω是随机试验E的样本空间，x是任意实数，称函数$F(x)=P(X\leq x)=P(\omega|X(\omega)\leq x)$为随机变量X的<u>分布函数</u>，$F(x)$也可记为$F_X(x)$。</p>
+<h3 id="2-2-离散型随机变量"><a href="#2-2-离散型随机变量" class="headerlink" title="2.2 离散型随机变量"></a>2.2 离散型随机变量</h3><ol>
+<li><p>离散型随机变量及其分布律</p>
+<p>定义1：如果随机变量X只取有限个或可列无穷多个数值：$x_1,x_2,…,x_n,…$，记$P(X=x_i)=p_i$，满足</p>
+<ul>
+<li>$p_i \geq 0$</li>
+<li>$\displaystyle\sum_{i=1}^{\infty}p_i=1$</li>
+</ul>
+<p>则称X为<u>离散型随机变量</u>，并称$P(X=x_i)=p_i,i=1,2,…$</p>
+<p><strong>几何分布：</strong>某射手一次射击命中目标的概率为p,$0&lt;p&lt;1$，射击进行到第一次命中目标为止，求射击次数X的分布律。</p>
+<p>X的分布律为</p>
+<table>
+<thead>
+<tr>
+<th>X</th>
+<th>1</th>
+<th>2</th>
+<th>…</th>
+<th>k</th>
+<th>…</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>$P(X=x_i)$</td>
+<td>$p$</td>
+<td>$(1-p)p$</td>
+<td>…</td>
+<td>$(1-p)^{k-1}p$</td>
+<td>…</td>
+</tr>
+</tbody></table>
+<p>称随机变量X服从几何分布。</p>
+<p><strong>伯努利试验：</strong>若一个试验的样本空间只有两个样本点，即只有两个可能的对立结果：A和$\bar{A}$，则称之为伯努利试验。在伯努利试验中，A为伯努利试验的基本事件，若$P(A)=p,-&lt;p&lt;1$，令$X=\left{ \begin{array}{rcl} 1 ,&amp; A发生 \ 0, &amp; A不发生 \end{array}\right.$，则X的分布律为</p>
+<table>
+<thead>
+<tr>
+<th>X</th>
+<th>0</th>
+<th>1</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>$P(X=x)$</td>
+<td>1-p</td>
+<td>p</td>
+</tr>
+</tbody></table>
+<p>则称X服从<u>(0-1)分布</u>或<u>两点分布</u>。</p>
+</li>
+<li><p>伯努利试验与二项分布</p>
+<p>定义：将一个试验在相同条件下重复进行n次，如果在每次试验中，任一事件出现的概率与其他各次试验的及格过无关，则称这n次试验是n次<u>重复独立的试验</u>。</p>
+<p>n次重复独立的伯努利试验称为n重伯努利试验，或称<u>伯努利概型</u>。</p>
+<p>定理：在n重伯努利试验中，事件A在每次试验中发生的概率为p，$0&lt;p&lt;1$，则A恰好发生k次的概率为$P_n(k)=C_n^kp^k(1-p)^{n-k}$。若随机变量X的分布律为$P(X=k)=P_n(k)=C_n^kp^k(1-p)^{n-k}$，则称X服从<u>二项分布</u>，记为$X\thicksim B(n,p)$</p>
+</li>
+<li><p>泊松分布</p>
+<p>设随机变量X的分布律为$P(X=k)=\dfrac{\lambda ^k}{k!}e^{-\lambda}$，则称随机变量X服从参数为λ的泊松分布，记为$X\thicksim P(\lambda)$。</p>
+<p>泊松定理：设随机变量序列$X_n,n=1,2,…$有$X_n\thicksim B(n,p_n)$，即$P(X=k)=C_n^kp_n^k(1-p_n)^{n-k},k=0,1,2,…$，若满足$\lim\limits_{n\rightarrow \infty}np_n=\lambda &gt;0$，则有$P(X_n=k)=\dfrac{\lambda ^k}{k!}e^{-\lambda}$</p>
+</li>
+</ol>
+<h3 id="2-3-连续型随机变量"><a href="#2-3-连续型随机变量" class="headerlink" title="2.3 连续型随机变量"></a>2.3 连续型随机变量</h3><ol>
+<li><p>概率密度函数</p>
+<p>定义：设$F(x)$是随机变量X的分布函数，若存在非负函数$f(x)$，对任意实数$x$，有$F(x)=\displaystyle\int_{-\infty}^xf(u)du$，则称X是连续性随机变量，称$f(x)$为X的概率密度。</p>
+<p>连续性随机变量的概率密度具有以下性质：</p>
+<ul>
+<li>$f(x)\geq 0$</li>
+<li>$\displaystyle \int_{-\infty}^{+\infty}f(x)dx=1$</li>
+<li>$P(x_1&lt;X\leq x_2)=\displaystyle\int_{x_1}^{x_2}f(x)dx$</li>
+<li>若$f(x)$在点x处连续，则$F^{\prime}(x)=(\displaystyle\int_{-\infty}^xf(u)du)^{\prime}=f(x)$</li>
+<li>连续性随机变量的分布函数$F(x)$是一个在$(-\infty,+\infty)$上的连续函数</li>
+<li>设X为连续性随机变量，则对任一指定实数$x_0$，有$P(X=x_0)=0,x_0\in \R$</li>
+</ul>
+</li>
+<li><p>几种连续性分布</p>
+<ul>
+<li><p>均匀分布</p>
+<p>设连续性随机变量X具有概率密度$f(x)=\left{ \begin{array}{rcl} \dfrac{1}{b-a} ,&amp; a&lt;x&lt;b \ 0, &amp; 其他 \end{array}\right.$，则称X在区间(a, b)上服从<u>均匀分布</u>，记为$X\thicksim U(a,b)$，可得X的分布函数为$F(x)=\left{ \begin{array}{rcl} 0 ,&amp; x&lt;a \ \dfrac{x-a}{b-a}, &amp; a\leq x &lt; b \ 1, &amp; b \leq x \end{array}\right.$.</p>
+</li>
+<li><p>指数分布</p>
+<p>若随机变量X的概率密度为$f(x)=\left{ \begin{array}{rcl} \dfrac{1}{\theta}e^{-\lambda x} ,&amp; x&gt;0 \ 0, &amp; x\leq 0 \end{array}\right.(\lambda &gt; 0)$,则称随机变量X服从参数为λ的<u>指数分布</u>。</p>
+<p>指数分布的无后效性：$P(X&gt;t+s|X&gt;t)=P(X&gt;s)$</p>
+</li>
+</ul>
+</li>
+<li><p>正态分布</p>
+<p>若连续性随机变量X的概率密度为$\varphi(x;\mu,\sigma^2)=\dfrac{1}{\sigma\sqrt{2\pi}}exp(\dfrac{-(x-\mu)^2}{2\sigma ^2}),x\in \R$,其中$\mu，\sigma$为实数，且$\sigma &gt;0$,则称X服从参数为$\mu ,\sigma^2$的<u>正态分布</u>或<u>高斯分布</u>，记为$X\thicksim N(\mu, \sigma^2)$。</p>
+<p>特别的，当$\mu = 0, \sigma = 1$，即$X\thicksim (0,1)$，则称X服从标准正态分布，其概率密度简记为$\varphi(x)=\dfrac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}},x\in \R$</p>
+</li>
+</ol>
+<h2 id="第3章-多维随机变量"><a href="#第3章-多维随机变量" class="headerlink" title="第3章 多维随机变量"></a>第3章 多维随机变量</h2><h3 id="3-1-二维随机变量及其分布"><a href="#3-1-二维随机变量及其分布" class="headerlink" title="3.1 二维随机变量及其分布"></a>3.1 二维随机变量及其分布</h3><h3 id="3-2-随机变量的独立性"><a href="#3-2-随机变量的独立性" class="headerlink" title="3.2 随机变量的独立性"></a>3.2 随机变量的独立性</h3><h3 id="3-3-条件分布"><a href="#3-3-条件分布" class="headerlink" title="3.3 条件分布"></a>3.3 条件分布</h3><h3 id="3-4-随机变量的函数及其分布"><a href="#3-4-随机变量的函数及其分布" class="headerlink" title="3.4 随机变量的函数及其分布"></a>3.4 随机变量的函数及其分布</h3><h2 id="第4章-随机变量的数字特征"><a href="#第4章-随机变量的数字特征" class="headerlink" title="第4章 随机变量的数字特征"></a>第4章 随机变量的数字特征</h2><h3 id="4-1-数学期望"><a href="#4-1-数学期望" class="headerlink" title="4.1 数学期望"></a>4.1 数学期望</h3><h3 id="4-2-随机变量的方差"><a href="#4-2-随机变量的方差" class="headerlink" title="4.2 随机变量的方差"></a>4.2 随机变量的方差</h3><h3 id="4-3-几种常见的数学期望和方差"><a href="#4-3-几种常见的数学期望和方差" class="headerlink" title="4.3 几种常见的数学期望和方差"></a>4.3 几种常见的数学期望和方差</h3><h3 id="4-4-协方差、相关系数与矩"><a href="#4-4-协方差、相关系数与矩" class="headerlink" title="4.4 协方差、相关系数与矩"></a>4.4 协方差、相关系数与矩</h3><h3 id="4-5-多维正态随机变量"><a href="#4-5-多维正态随机变量" class="headerlink" title="4.5 多维正态随机变量"></a>4.5 多维正态随机变量</h3>
             </div>
             <hr/>
 
@@ -461,7 +683,7 @@ int main(void){
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://peter-droid.github.io/ce-shi-fen-lei/first-article/">https://peter-droid.github.io/ce-shi-fen-lei/first-article/</a>
+                    <a href="https://peter-droid.github.io/xue-xi/gai-tong-xue-xi-bi-ji/">https://peter-droid.github.io/xue-xi/gai-tong-xue-xi-bi-ji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -499,8 +721,12 @@ int main(void){
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%B5%8B%E8%AF%95/">
-                                    <span class="chip bg-color">测试</span>
+                                <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">笔记</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%A6%82%E7%BB%9F/">
+                                    <span class="chip bg-color">概统</span>
                                 </a>
                             
                         </div>
@@ -671,7 +897,7 @@ int main(void){
         repo: 'Peter-droid.github.io',
         owner: 'Peter-droid',
         admin: "龙昕",
-        id: '2020-10-22T21-05-36',
+        id: '2020-10-26T22-48-41',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -695,29 +921,93 @@ int main(void){
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/xue-xi/shu-ju-jie-gou-du-shu-bi-ji/">
+                <a href="/xue-xi/gai-tong-xue-xi-bi-ji/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="数据结构读书笔记">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="概统学习笔记">
                         
-                        <span class="card-title">数据结构读书笔记</span>
+                        <span class="card-title">概统学习笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            第1章 概率论的基本概念1.1 随机事件与随机变量
+随机现象及其统计规律
+客观现象可分为两大类：确定性现象和非确定性现象，称不确定现象为随机现象。
+
+随机试验与随机事件
+具有以下特征的试验称为随机试验：
+
+可在相同条件下重复进行
+试验的全部
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-10-25
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">笔记</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%A6%82%E7%BB%9F/">
+                        <span class="chip bg-color">概统</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/xue-xi/shu-xue-jing-sai-hao-ti-shang-xi/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="数学竞赛好题赏析">
+                        
+                        <span class="card-title">数学竞赛好题赏析</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            这篇文章用来记录刷题过程中给我启发或者让我学到新方法的好题。
+设$y=f(x)$由$\begin{equation}\left{             \begin{array}{lr}             x=t^2+2t &amp
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-25
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -733,70 +1023,12 @@ int main(void){
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">
-                        <span class="chip bg-color">数据结构</span>
+                    <a href="/tags/%E6%95%B0%E5%AD%A6%E7%AB%9E%E8%B5%9B/">
+                        <span class="chip bg-color">数学竞赛</span>
                     </a>
                     
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/ce-shi-fen-lei/first-article/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="first article">
-                        
-                        <span class="card-title">first article</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            代码测试
-#include 
-using namespace::std;
-
-int main(void){
-    cout < "hello world!" < endl;
-    return 0;
-}
-
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-10-22
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/" class="post-category">
-                                    测试分类
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E6%B5%8B%E8%AF%95/">
-                        <span class="chip bg-color">测试</span>
+                    <a href="/tags/%E5%88%B7%E9%A2%98/">
+                        <span class="chip bg-color">刷题</span>
                     </a>
                     
                 </div>
@@ -934,6 +1166,13 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
 
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>

@@ -6,7 +6,7 @@
   <link href="https://peter-droid.github.io/atom.xml" rel="self"/>
   
   <link href="https://peter-droid.github.io/"/>
-  <updated>2021-04-23T07:44:24.182Z</updated>
+  <updated>2021-04-23T07:58:00.878Z</updated>
   <id>https://peter-droid.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://peter-droid.github.io/xue-xi/shu-xue-jian-mo-bi-ji/"/>
     <id>https://peter-droid.github.io/xue-xi/shu-xue-jian-mo-bi-ji/</id>
     <published>2021-04-22T13:27:42.000Z</published>
-    <updated>2021-04-23T07:44:24.182Z</updated>
+    <updated>2021-04-23T07:58:00.878Z</updated>
     
     
       
@@ -65,6 +65,34 @@
     <category term="笔记" scheme="https://peter-droid.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
     
     <category term="概统" scheme="https://peter-droid.github.io/tags/%E6%A6%82%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学物理学习笔记</title>
+    <link href="https://peter-droid.github.io/xue-xi/da-xue-wu-li-xue-xi-bi-ji/"/>
+    <id>https://peter-droid.github.io/xue-xi/da-xue-wu-li-xue-xi-bi-ji/</id>
+    <published>2020-10-26T14:47:35.000Z</published>
+    <updated>2021-04-23T08:00:54.775Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;声明：本文整理自荣建老师的ppt和《大学物理》课本，仅作复习使用。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;热学&quot;&gt;&lt;a href=&quot;#热学&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="https://peter-droid.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="笔记" scheme="https://peter-droid.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="大学物理" scheme="https://peter-droid.github.io/tags/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/"/>
     
   </entry>
   

@@ -405,14 +405,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    987
+                    1.6k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    5 分
                 </div>
                 
 
@@ -460,7 +460,61 @@
 <p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1/%E5%B1%82%E6%AC%A1%E5%88%86%E6%9E%90%E6%B3%95%E6%8C%87%E6%95%B0%E8%A1%A8.png" alt="层次分析法指数表"></p>
 <p>当C.R.＜0.10时，认为判断矩阵的一致性是可以接受的，否则应对判断矩阵作适当修正.</p>
 <h3 id="计算各层元素对目标层的总排序权重"><a href="#计算各层元素对目标层的总排序权重" class="headerlink" title="计算各层元素对目标层的总排序权重"></a>计算各层元素对目标层的总排序权重</h3><p>​    假定以及算出上层各元素相对于总目标的排序权重（列向量）。由于本层各元素相对上层各元素都有相对权重向量，于是将本层各元素相对于上层某元素的相对权重向量作为行，按上层元素的顺序一一排列，得到一张矩阵。将上层各元素相对于总目标的排序权重右乘于刚才的矩阵，得到本层相对于总目标的排序权重。</p>
-<h2 id="灰色关联分析体系"><a href="#灰色关联分析体系" class="headerlink" title="灰色关联分析体系"></a>灰色关联分析体系</h2>
+<h2 id="灰色关联分析体系"><a href="#灰色关联分析体系" class="headerlink" title="灰色关联分析体系"></a>灰色关联分析体系</h2><h1 id="预测类数学模型"><a href="#预测类数学模型" class="headerlink" title="预测类数学模型"></a>预测类数学模型</h1><p>预测类问题指的是已知一些数据，根据这些数据来对未来的数据进行预测。</p>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2%E9%A2%84%E6%B5%8B%E7%B1%BB%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9E%8B.png" alt="预测类数学模型"></p>
+<p>##数据拟合与插值</p>
+<p>拟合与插值都是寻找一个函数，该函数通过现有的数据点获得，对其他未知的数据点进行预测。</p>
+<p>区别是：插值需要所求函数通过现有的数据点，预测不需要所求函数通过现有的数据点。</p>
+<p>用分段函数拟合叫做样条拟合。</p>
+<h2 id="多项式数据拟合"><a href="#多项式数据拟合" class="headerlink" title="多项式数据拟合"></a>多项式数据拟合</h2><ul>
+<li><p>最小二乘法</p>
+<p>最小二乘法的基本原理是求得函数与已知数据点的“距离”最小。其系数可以由公式求出：</p>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%B3%95%E5%85%AC%E5%BC%8F.png" alt="最小二乘法公式"></p>
+</li>
+</ul>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%B3%95.png" alt="最小二乘法"></p>
+<ul>
+<li><p>Matlab</p>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2polyfit.png" alt="polyfit函数"></p>
+</li>
+</ul>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2polyval.png" alt="polyval函数"></p>
+<p>从文档可知，polyfit可以求出最小二乘多项式的系数，polyval可以从系数中求出最小二乘多项式的值。</p>
+<h2 id="非多项式数据拟合"><a href="#非多项式数据拟合" class="headerlink" title="非多项式数据拟合"></a>非多项式数据拟合</h2><ul>
+<li><p>Malthus拟合</p>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2Maltuhs%E6%8B%9F%E5%90%88.png" alt="Malthus拟合微分方程"></p>
+<p>Malthus是指数拟合，适合于增长率与当前数值有关的问题，最终求得的方程满足以下形式：</p>
+<p>$y(x)=c_0 (1+r)^{x}$</p>
+<p>求解方法：</p>
+<p>求对数：$\ln y = \ln c_0 + x\ln (1+r)$</p>
+<p>$Y = \ln y$，$a = \ln c_0$，$b=\ln (1+r)$，于是可以通过一阶最小二乘拟合来求出$a_0,b_0$</p>
+<p>$c_0 = e^{a_0},(1+r)=e^{b_0}$</p>
+</li>
+</ul>
+<ul>
+<li><p>Logistic拟合</p>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2Logistic%E6%8B%9F%E5%90%88.png" alt="logistic拟合的微分方程"></p>
+<p>Logistic拟合适合于当前数值不仅影响增长因子，也影响负增长因子的问题，两因子共同作用于当前数值。最终求得的方程满足以下形式：</p>
+<p>$x(t)=\dfrac{K}{1+(\frac{K}{x_0}-1)e^{-\tau t}}$</p>
+<p>或是</p>
+<p>$x(t)=\dfrac{a}{1+be^{-ct}}$</p>
+</li>
+</ul>
+<p>求解matlab代码如下：</p>
+<pre class="line-numbers language-matlab"><code class="language-matlab"><span class="token comment" spellcheck="true">%x, t are known datas</span>
+ft <span class="token operator">=</span> <span class="token function">fittype</span><span class="token punctuation">(</span><span class="token string">'a/(1+b^exp(-c*t))'</span><span class="token punctuation">,</span><span class="token punctuation">...</span> 
+<span class="token string">'independent'</span><span class="token punctuation">,</span> <span class="token string">'t'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+f<span class="token operator">=</span><span class="token function">fit</span><span class="token punctuation">(</span>t<span class="token punctuation">,</span>x<span class="token punctuation">,</span>ft<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="一般形式的拟合方法"><a href="#一般形式的拟合方法" class="headerlink" title="一般形式的拟合方法"></a>一般形式的拟合方法</h2><p>书中主要介绍了 Matlab 中的 lsqcurvefit 和 nlinfit 函数。</p>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2lsqcurvefit.png" alt="lsqcurvefit"></p>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2nlinfit.png" alt="nlitfit"></p>
+<h2 id="Leslie矩阵模型"><a href="#Leslie矩阵模型" class="headerlink" title="Leslie矩阵模型"></a>Leslie矩阵模型</h2><h2 id="灰色预测模型"><a href="#灰色预测模型" class="headerlink" title="灰色预测模型"></a>灰色预测模型</h2><h1 id="多元统计分析模型"><a href="#多元统计分析模型" class="headerlink" title="多元统计分析模型"></a>多元统计分析模型</h1><p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2%E5%A4%9A%E5%85%83%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90%E6%A8%A1%E5%9E%8B.png" alt="多元统计分析模型"></p>
+<p>多元统计分析是运用数理统计方法来研究多指标问题的理论和方法。</p>
+<h2 id="聚类分析"><a href="#聚类分析" class="headerlink" title="聚类分析"></a>聚类分析</h2><p>类是对许多个体的划分，同一个类中的个体具有较大的相似性，不同类中的个体差异很大。</p>
+<p>根据分类对象不同，分为<strong>样品聚类</strong>和<strong>变量聚类</strong>两种。</p>
+<p>样品聚类是对观测量进行聚类，变量聚类是找出彼此独立且有代表性的自变量。</p>
+<p><img src="https://imhhhpic.oss-cn-chengdu.aliyuncs.com/img_lx/%E7%94%B5%E7%A3%81%E5%9C%BA%E4%B8%8E%E6%B3%A2QR%E8%81%9A%E7%B1%BB%E6%B3%95.png" alt="Q型聚类法的常用距离和R型聚类法的常用相似系数"></p>
+
             </div>
             <hr/>
 
@@ -719,49 +773,49 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/xue-xi/shu-xue-jian-mo-bi-ji/">
+                <a href="/xue-xi/dian-ci-chang-yu-bo/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="数学建模笔记">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="电磁场与波">
                         
-                        <span class="card-title">数学建模笔记</span>
+                        <span class="card-title">电磁场与波</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            评价类模型
-层次分析法​    层次分析法（APH）的主要特点是通过建立递阶层次结构，把人类的判断转化到若干因素两两之间重要度的比较上，从而把难以量化的定性判断转化为可以操作的重要度比较上面。它的本质是一种思维方式，把复杂的因素分解成多个组
+                            
+第1章 矢量分析
+由于电场与磁场都是矢量场，因此矢量分析是讨论这两个物理量的数学基础。在此之上，由于各种衍生概念，因此在矢量的基础上有许多的数学概念与公式。它们是讨论电磁场的数学语言。
+1.1 矢量代数这一章的概念比较熟悉，线性代数中都有
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-22
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-04-25
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
                             <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                    学习
+                                    -学习
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
                     <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
+                        <span class="chip bg-color">-笔记</span>
                     </a>
                     
                 </div>
@@ -1037,7 +1091,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">15.7k</span>&nbsp;字
+                class="white-color">16.5k</span>&nbsp;字
             
             
             

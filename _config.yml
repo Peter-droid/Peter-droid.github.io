@@ -4,10 +4,10 @@
 
 # Site
 title: 学习使我快乐
-subtitle: '嘤嘤嘤'
+subtitle: '学习使我快乐'
 description: ''
 keywords: 
-author: LongXin
+author: 龙昕
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -73,6 +73,15 @@ githubEmojis:
   inject: true
   styles:
   customEmojis: 
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub: 
+  content: 
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -120,5 +129,5 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/Peter-droid/Peter-droid.github.io
+  repository: git@github.com:Peter-droid/Peter-droid.github.io.git
   branch: master

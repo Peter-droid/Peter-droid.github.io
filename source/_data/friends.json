@@ -1,8 +1,14 @@
 [{
-    "avatar": "",
-    "name": "",
-    "introduction": "",
-    "url": "",
-    "title": ""
-
+    "avatar": "/medias/avatars/Jotang.png",
+    "name": "焦糖工作室",
+    "introduction": "小伙伴们的聚集地",
+    "url": "https://d.jotang.club",
+    "title": "来康康"
+    },
+{
+    "avatar": "/medias/avatars/IMHHH.jpg",
+    "name": "IMHHH",
+    "introduction": "编程大佬",
+    "url": "https://space.bilibili.com/18555593",
+    "title": "拜访"
 }]

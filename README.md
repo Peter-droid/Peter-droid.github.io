@@ -2,21 +2,55 @@
 
 ## 如何使用
 
+git bash下：
+
+cd 到此目录
+cd ./Blog
+
+Hexo commands here!
+
+hexo c
+hexo g
+hexo d
+
+cd ..
+git checkout HexoEnvironment
+git add .
+git commit -m '...'
+git push Blog
+
+## hexo命令
+
 写作命令
+
 新建分页：hexo new page 名称
+
 新建文章：hexo new 名称或hexo n 名称
+
 新建草稿：hexo new draft 名称或hexo n draft 名称
+
 草稿生成文章：hexo publish 名称或hexo p 名称
+
 草稿生成分页：hexo publish page 名称或hexo p page 名称
+
 操作命令
+
 清除已生成文件：hexo clean
+
 运行本地服务器（预览）：hexo s
+
 运行本地服务器（预览草稿）：hexo s --drafts
+
 生成静态文件：hexo g
+
 部署到服务器：hexo d
+
 生成并部署文件：hexo g -d或hexo d -g
+
 常见事项
+
 多标签：
+
 
 tags: 
 - 标签1
